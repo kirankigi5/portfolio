@@ -6,7 +6,7 @@ subtitle: MSCS @ <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a> | B.Tec
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York, NY</p>
