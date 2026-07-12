@@ -35,4 +35,4 @@ More recently, my work has focused on distributed systems and AI infrastructure.
 
 Outside of work and academics, I'm an enthusiastic open-source contributor and enjoy exploring the rapidly evolving ecosystem of local AI models and developer tooling. I like turning architectural ideas into working software, using projects as a way to deepen my understanding of distributed systems, fault tolerance, and modern AI infrastructure.
 
-I also write technical articles on [Medium](https://medium.com/@kiranreddybhumireddy), where I share deep dives, implementation notes, and lessons learned from building systems, with the goal of giving back to the engineering community.
+I also write technical articles on [Medium](https://medium.com/@kiranreddybhumireddy), where I share deep dives, implementation notes, and lessons learned from building systems.
