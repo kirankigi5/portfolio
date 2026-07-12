@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Everyone is Chasing Better Models. They're Missing the Other 90%."
+date: 2026-07-11
+description: A deep dive into Agentic Engineering and why the architectural infrastructure surrounding LLMs matters more than the models themselves.
+tags: [agentic-engineering, llm]
+categories: [tech]
+redirect: https://medium.com/@kiranreddybhumireddy/everyone-is-chasing-better-models-theyre-missing-the-other-90-f7199623370b
+---
