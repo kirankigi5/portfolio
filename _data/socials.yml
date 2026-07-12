@@ -17,3 +17,8 @@ google_dev:
   logo: "fab fa-google"
   title: Google Developers
   url: https://me.developers.google.com/u/kiranreddybhumireddy
+
+kaggle:
+  logo: "fab fa-kaggle"
+  title: Kaggle
+  url: https://www.kaggle.com/kiranreddybhumireddy
