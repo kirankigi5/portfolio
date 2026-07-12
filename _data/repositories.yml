@@ -5,14 +5,33 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - kirankigi5/tokentriage
-  - kirankigi5/startup-scout-ai
+  - kirankigi5/portfolio
   - kirankigi5/SceneSense
+  - kirankigi5/tokentriage
+  - kirankigi5/kirankigi5
+  - kirankigi5/startup-scout-ai
+  - kirankigi5/buildathon
+  - kirankigi5/clawdbot
   - kirankigi5/pong-rl-project
+  - kirankigi5/ramp-app
+  - kirankigi5/Strivers_A2Z_DSA_SHEET
+  - kirankigi5/SpinRoll
+  - kirankigi5/leetcode-company-wise-problems
+  - kirankigi5/mayhem-firmware
   - kirankigi5/RealEstatePortal
+  - kirankigi5/teraplayer
+  - kirankigi5/RL_project_crank_rockers
   - kirankigi5/Ball-Catching-via-6R-Manipulator-
+  - kirankigi5/ball_tracking
+  - kirankigi5/POIS_55
   - kirankigi5/jansenSpider-BlackHawks
   - kirankigi5/PID-control
   - kirankigi5/remote_pregnancy_monitor
-  - kirankigi5/Strivers_A2Z_DSA_SHEET
-  - kirankigi5/POIS_55
+  - kirankigi5/statistical_methods_in_AI
+  - kirankigi5/topics_in_reinforcement_learning
+  - kirankigi5/POIS
+  - kirankigi5/whatsapp-web-ui
+  - kirankigi5/adiantum
+  - kirankigi5/pytorch-nerf
+  - kirankigi5/whatsapp-web-clone
+  - kirankigi5/stat453-deep-learning-ss21
