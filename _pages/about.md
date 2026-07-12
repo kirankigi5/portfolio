@@ -27,7 +27,7 @@ latest_posts:
 
 I am a Master's student in Computer Science at [New York University's Courant Institute](https://cims.nyu.edu/dynamic/), where I work at the intersection of distributed systems and artificial intelligence. Before joining NYU, I completed my B.Tech. in Computer Science at the [Indian Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/).
 
-My primary interest is **Agentic Engineering**—the discipline of building reliable, production-ready systems around large language models. While modern LLMs are remarkably capable, transforming them into dependable software requires careful systems design, robust infrastructure, and thoughtful engineering. That challenge is what excites me the most.
+My primary interest is **Agentic Engineering**, the discipline of building reliable, production-ready systems around large language models. While modern LLMs are remarkably capable, transforming them into dependable software requires careful systems design, robust infrastructure, and thoughtful engineering. That challenge is what excites me the most.
 
 I began my engineering journey as a Student Researcher at the [Robotics Research Center](https://rocon.in/people) under Dr. Spandan Roy, where I worked on asynchronous telemetry pipelines and low-latency Kalman filtering algorithms in C++. I later joined Ambitio as a Software Engineer, building scalable backend systems and AI-powered products.
 
