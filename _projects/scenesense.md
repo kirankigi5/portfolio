@@ -3,7 +3,7 @@ layout: page
 title: SceneSense
 description: Multi-Style Video Captioning Agent (Track 2)
 importance: 3
-category: fun
+category: Hackathons
 related_publications: false
 ---
 

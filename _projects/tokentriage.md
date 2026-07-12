@@ -3,7 +3,7 @@ layout: page
 title: TokenTriage
 description: A local-first inference router for AI agents that proves every dollar it saves.
 importance: 1
-category: work
+category: Agentic Engineering
 related_publications: false
 ---
 

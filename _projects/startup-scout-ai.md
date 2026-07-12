@@ -3,7 +3,7 @@ layout: page
 title: Startup Scout AI (JudgeVC)
 description: Automating venture screening with a multi-agent AI committee powered by NVIDIA Nemotron.
 importance: 2
-category: work
+category: Agentic Engineering
 related_publications: false
 ---
 
