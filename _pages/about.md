@@ -28,5 +28,3 @@ latest_posts:
 I am a Software Engineer currently pursuing my Master’s in Computer Science at New York University's Courant Institute. My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.
 
 Recently, my focus has shifted toward the intersection of traditional systems engineering and artificial intelligence. I am particularly interested in **Agentic Engineering**—the architectural discipline required to turn raw, unpredictable LLMs into reliable, production-ready software systems.
-
-Prior to NYU, I worked as a Software Engineer at Ambitio Technologies in Bangalore, India, and as a Student Researcher at the Robotics Research Center, IIIT Hyderabad.
