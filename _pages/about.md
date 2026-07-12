@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer, MS CS @ NYU | Ex-Ambitio Tech
+subtitle: MSCS @ <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a> | B.Tech CS @ <a href="https://www.iiit.ac.in/">IIIT Hyderabad</a> | Researcher @ <a href="https://rocon.in/people">RRC</a>
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
     <p>New York, NY</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # disabled huge bottom icons
 
 announcements:
   enabled: false # includes a list of news items
@@ -25,6 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Software Engineer currently pursuing my Master’s in Computer Science at New York University's Courant Institute. My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.
+I am a Software Engineer currently pursuing my Master’s in Computer Science at [New York University's Courant Institute](https://cims.nyu.edu/dynamic/). My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.
 
 Recently, my focus has shifted toward the intersection of traditional systems engineering and artificial intelligence. I am particularly interested in **Agentic Engineering**—the architectural discipline required to turn raw, unpredictable LLMs into reliable, production-ready software systems.
+
+
