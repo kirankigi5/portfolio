@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [Agentic Engineering, Hackathons]
+display_categories: [Agentic Engineering, Distributed Systems, Hackathons]
 horizontal: false
 ---
 
