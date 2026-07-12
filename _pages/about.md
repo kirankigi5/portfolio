@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master's student in Computer Science at [New York University's Courant Institute](https://cims.nyu.edu/dynamic/), where I work at the intersection of distributed systems and artificial intelligence. Before joining NYU, I graduated **with Honours** with a B.Tech. in Computer Science and Engineering from the [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/).
+I am a Master's student in Computer Science at [New York University's Courant Institute](https://cims.nyu.edu/dynamic/), where I work at the intersection of distributed systems and artificial intelligence. Before joining NYU, I earned a B.Tech. in Computer Science and Engineering, graduating with Honours from the [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/).
 
 My primary interest is **Agentic Engineering**, the discipline of building reliable, production-ready systems around large language models. While modern LLMs are remarkably capable, transforming them into dependable software requires careful systems design, robust infrastructure, and thoughtful engineering. That challenge is what excites me the most.
 
