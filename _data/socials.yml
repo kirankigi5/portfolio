@@ -2,4 +2,18 @@ email: kb4990@nyu.edu
 github_username: kirankigi5
 linkedin_username: kiranreddybhumireddy
 medium_username: kiranreddybhumireddy
-leetcode_username: kigi
+
+leetcode:
+  logo: "fas fa-code"
+  title: LeetCode
+  url: https://leetcode.com/u/kigi/
+
+devpost:
+  logo: "fas fa-laptop-code"
+  title: Devpost
+  url: https://devpost.com/kirankigi5
+
+google_dev:
+  logo: "fab fa-google"
+  title: Google Developers
+  url: https://me.developers.google.com/u/kiranreddybhumireddy
