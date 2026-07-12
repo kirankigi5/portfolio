@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Reddy Bhumireddy | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">KRB.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero reveal">
+            <h1 class="hero-title">Kiran Reddy <span class="gradient-text">Bhumireddy</span></h1>
+            <h2 class="hero-subtitle">Building Scalable AI Infrastructure | Distributed Systems</h2>
+            <p class="hero-desc">Architecting the 90% of AI development that isn't the model. Moving from writing syntax to designing intent.</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/kiranreddy" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://medium.com/@kiranreddybhumireddy" target="_blank" class="social-btn"><i class="fab fa-medium"></i> Medium</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section reveal">
+            <h3 class="section-title">About Me</h3>
+            <div class="glass-card about-card">
+                <p>I am a Software Engineer currently pursuing my Master’s in Computer Science at NYU's Courant Institute. My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.</p>
+                <p>Recently, my focus has shifted toward the intersection of traditional systems engineering and artificial intelligence. I am particularly obsessed with <strong>Agentic Engineering</strong>—the architectural discipline required to turn raw, unpredictable LLMs into reliable, production-ready software systems.</p>
+                <p>I spend my time building things like local-first AI inference gateways, dynamic routing engines, and custom orchestration layers.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section reveal">
+            <h3 class="section-title">Experience</h3>
+            
+            <div class="timeline">
+                <div class="glass-card experience-card">
+                    <div class="exp-header">
+                        <h4>Software Engineer</h4>
+                        <span class="date">Aug 2024 - Jul 2025</span>
+                    </div>
+                    <h5 class="company">Ambitio Technologies</h5>
+                    <ul>
+                        <li>Engineered an idempotent, fault-tolerant installment payment gateway via Django REST Framework, contributing to a 25% lift in checkout conversion rates.</li>
+                        <li>Re-architected enterprise search replacing heavy DB queries with a Redis caching layer and PostgreSQL Full-Text Search, driving a 65% reduction in p99 system latency.</li>
+                        <li>Architected a scalable RAG ingestion pipeline using LangChain for semantic chunking and Pinecone for vector retrieval, increasing automated ticket resolution by 40%.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card experience-card">
+                    <div class="exp-header">
+                        <h4>Student Researcher (Software Engineering)</h4>
+                        <span class="date">May 2022 - Apr 2024</span>
+                    </div>
+                    <h5 class="company">Robotics Research Center, IIIT Hyderabad</h5>
+                    <ul>
+                        <li>Engineered an asynchronous telemetry pipeline built with AWS IoT Core, Lambda, and S3 to aggregate streaming hardware data.</li>
+                        <li>Implemented low-latency Kalman filtering algorithms in C++ for fast-moving projectile tracking, ensuring resilient trajectory prediction.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section reveal">
+            <h3 class="section-title">Featured Projects</h3>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card">
+                    <div class="project-content">
+                        <h4>Local-First AI Inference Gateway</h4>
+                        <p>Built a dynamic inference router for AI agents that classifies task complexity and routes workloads across local (Ollama) and cloud (OpenRouter), achieving a 97.7% reduction in modeled inference costs. Engineered a semantic cache using local Nomic embeddings.</p>
+                        <div class="tech-stack">
+                            <span class="tag">Python</span>
+                            <span class="tag">MCP</span>
+                            <span class="tag">Ollama</span>
+                            <span class="tag">Semantic Caching</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card">
+                    <div class="project-content">
+                        <h4>Distributed Transactional Database</h4>
+                        <p>Architected a sharded key-value store using Multi-Paxos and Two-Phase Commit (2PC) to guarantee strict cross-shard transactional consistency. Sustained 10,000 ops/sec at <60ms p95 latency.</p>
+                        <div class="tech-stack">
+                            <span class="tag">C++</span>
+                            <span class="tag">gRPC</span>
+                            <span class="tag">Paxos</span>
+                            <span class="tag">Distributed Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section reveal">
+            <h3 class="section-title">Skills</h3>
+            <div class="glass-card skills-card">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="tech-stack">
+                        <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Go</span><span class="tag">SQL</span><span class="tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Cloud & Databases</h4>
+                    <div class="tech-stack">
+                        <span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">PostgreSQL</span><span class="tag">Pinecone</span><span class="tag">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>AI Infrastructure</h4>
+                    <div class="tech-stack">
+                        <span class="tag">LangChain</span><span class="tag">MCP</span><span class="tag">RAG</span><span class="tag">Semantic Caching</span><span class="tag">Agent Orchestration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Kiran Reddy Bhumireddy. Built with intent.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
