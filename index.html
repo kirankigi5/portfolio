@@ -3,149 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiran Reddy Bhumireddy | Software Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <!-- FontAwesome for icons -->
+    <title>Kiran Reddy Bhumireddy</title>
+    <!-- Standard academic font stack -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="blob-bg"></div>
-    <div class="blob-bg blob-2"></div>
-    
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="#" class="logo">KRB.</a>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-brand"></a> <!-- Empty left side -->
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main class="container">
-        <!-- Hero Section -->
-        <section id="hero" class="hero reveal">
-            <h1 class="hero-title">Kiran Reddy <span class="gradient-text">Bhumireddy</span></h1>
-            <h2 class="hero-subtitle">Building Scalable AI Infrastructure | Distributed Systems</h2>
-            <p class="hero-desc">Architecting the 90% of AI development that isn't the model. Moving from writing syntax to designing intent.</p>
-            
-            <div class="social-links">
-                <a href="https://github.com/kirankigi5" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
-                <a href="#" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://medium.com/@kiranreddybhumireddy" target="_blank" class="social-btn"><i class="fab fa-medium"></i> Medium</a>
+        <!-- Bio Section -->
+        <section id="about" class="bio-section">
+            <div class="bio-content">
+                <h1 class="name-title"><strong>Kiran Reddy</strong> Bhumireddy</h1>
+                <p class="subtitle">Software Engineer, MS CS @ NYU | Ex-Ambitio Tech</p>
+                <div class="social-icons">
+                    <a href="mailto:kb4990@nyu.edu" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/kirankigi5" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://medium.com/@kiranreddybhumireddy" title="Medium"><i class="fab fa-medium"></i></a>
+                </div>
+                
+                <div class="bio-text">
+                    <p>I am a Software Engineer currently pursuing my Master’s in Computer Science at New York University's Courant Institute. My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.</p>
+                    
+                    <p>Recently, my focus has shifted toward the intersection of traditional systems engineering and artificial intelligence. I am particularly interested in <strong>Agentic Engineering</strong>—the architectural discipline required to turn raw, unpredictable LLMs into reliable, production-ready software systems.</p>
+                    
+                    <p>Prior to NYU, I worked as a Software Engineer at Ambitio Technologies in Bangalore, India, and as a Student Researcher at the Robotics Research Center, IIIT Hyderabad.</p>
+                </div>
             </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section reveal">
-            <h3 class="section-title">About Me</h3>
-            <div class="glass-card about-card">
-                <p>I am a Software Engineer currently pursuing my Master’s in Computer Science at NYU's Courant Institute. My engineering background is deeply rooted in backend architecture, distributed systems, and scalable infrastructure.</p>
-                <p>Recently, my focus has shifted toward the intersection of traditional systems engineering and artificial intelligence. I am particularly obsessed with <strong>Agentic Engineering</strong>—the architectural discipline required to turn raw, unpredictable LLMs into reliable, production-ready software systems.</p>
-                <p>I spend my time building things like local-first AI inference gateways, dynamic routing engines, and custom orchestration layers.</p>
+            <div class="profile-pic-container">
+                <!-- Replace 'profile.jpg' with your actual image file name once you add it to this folder -->
+                <img src="profile.jpg" alt="Kiran Reddy Bhumireddy" class="profile-pic" onerror="this.src='https://via.placeholder.com/250x300/333333/666666?text=Add+profile.jpg'">
             </div>
         </section>
 
         <!-- Experience Section -->
-        <section id="experience" class="section reveal">
-            <h3 class="section-title">Experience</h3>
+        <section id="experience" class="list-section">
+            <h2 class="section-title">experience</h2>
             
-            <div class="timeline">
-                <div class="glass-card experience-card">
-                    <div class="exp-header">
-                        <h4>Software Engineer</h4>
-                        <span class="date">Aug 2024 - Jul 2025</span>
-                    </div>
-                    <h5 class="company">Ambitio Technologies</h5>
-                    <ul>
-                        <li>Engineered an idempotent, fault-tolerant installment payment gateway via Django REST Framework, contributing to a 25% lift in checkout conversion rates.</li>
-                        <li>Re-architected enterprise search replacing heavy DB queries with a Redis caching layer and PostgreSQL Full-Text Search, driving a 65% reduction in p99 system latency.</li>
-                        <li>Architected a scalable RAG ingestion pipeline using LangChain for semantic chunking and Pinecone for vector retrieval, increasing automated ticket resolution by 40%.</li>
-                    </ul>
-                </div>
-
-                <div class="glass-card experience-card">
-                    <div class="exp-header">
-                        <h4>Student Researcher (Software Engineering)</h4>
-                        <span class="date">May 2022 - Apr 2024</span>
-                    </div>
-                    <h5 class="company">Robotics Research Center, IIIT Hyderabad</h5>
-                    <ul>
-                        <li>Engineered an asynchronous telemetry pipeline built with AWS IoT Core, Lambda, and S3 to aggregate streaming hardware data.</li>
-                        <li>Implemented low-latency Kalman filtering algorithms in C++ for fast-moving projectile tracking, ensuring resilient trajectory prediction.</li>
-                    </ul>
-                </div>
-            </div>
+            <table class="list-table">
+                <tr>
+                    <td class="date-col">Aug 2024</td>
+                    <td class="desc-col">
+                        <strong>Software Engineer</strong> at Ambitio Technologies. Engineered fault-tolerant payment gateways and re-architected enterprise search using Redis and PostgreSQL, reducing latency by 65%.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date-col">May 2024</td>
+                    <td class="desc-col">
+                        <strong>Software Engineer Intern</strong> at Ambitio Technologies. Led the migration of monolithic endpoints to a highly available Django microservice architecture.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date-col">May 2022</td>
+                    <td class="desc-col">
+                        <strong>Student Researcher</strong> at Robotics Research Center, IIIT Hyderabad. Engineered asynchronous telemetry pipelines and low-latency Kalman filtering algorithms in C++.
+                    </td>
+                </tr>
+            </table>
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section reveal">
-            <h3 class="section-title">Featured Projects</h3>
-            <div class="projects-grid">
-                
-                <div class="glass-card project-card">
-                    <div class="project-content">
-                        <h4>Local-First AI Inference Gateway</h4>
-                        <p>Built a dynamic inference router for AI agents that classifies task complexity and routes workloads across local (Ollama) and cloud (OpenRouter), achieving a 97.7% reduction in modeled inference costs. Engineered a semantic cache using local Nomic embeddings.</p>
-                        <div class="tech-stack">
-                            <span class="tag">Python</span>
-                            <span class="tag">MCP</span>
-                            <span class="tag">Ollama</span>
-                            <span class="tag">Semantic Caching</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-card project-card">
-                    <div class="project-content">
-                        <h4>Distributed Transactional Database</h4>
-                        <p>Architected a sharded key-value store using Multi-Paxos and Two-Phase Commit (2PC) to guarantee strict cross-shard transactional consistency. Sustained 10,000 ops/sec at <60ms p95 latency.</p>
-                        <div class="tech-stack">
-                            <span class="tag">C++</span>
-                            <span class="tag">gRPC</span>
-                            <span class="tag">Paxos</span>
-                            <span class="tag">Distributed Systems</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <section id="projects" class="list-section">
+            <h2 class="section-title">selected projects</h2>
+            
+            <table class="list-table">
+                <tr>
+                    <td class="date-col">Jun 2026</td>
+                    <td class="desc-col">
+                        <strong>Local-First AI Inference Gateway</strong><br>
+                        Built a dynamic inference router for AI agents that classifies task complexity and routes workloads across local (Ollama) and cloud (OpenRouter). Achieved a 97.7% reduction in modeled inference costs. Engineered a semantic cache using local Nomic embeddings.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date-col">Feb 2026</td>
+                    <td class="desc-col">
+                        <strong>Distributed Transactional Database</strong><br>
+                        Architected a sharded key-value store using Multi-Paxos and Two-Phase Commit (2PC) to guarantee strict cross-shard transactional consistency. Sustained 10,000 ops/sec at <60ms p95 latency.
+                    </td>
+                </tr>
+            </table>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section reveal">
-            <h3 class="section-title">Skills</h3>
-            <div class="glass-card skills-card">
-                <div class="skill-category">
-                    <h4>Languages</h4>
-                    <div class="tech-stack">
-                        <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Go</span><span class="tag">SQL</span><span class="tag">TypeScript</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>Cloud & Databases</h4>
-                    <div class="tech-stack">
-                        <span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">PostgreSQL</span><span class="tag">Pinecone</span><span class="tag">Redis</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>AI Infrastructure</h4>
-                    <div class="tech-stack">
-                        <span class="tag">LangChain</span><span class="tag">MCP</span><span class="tag">RAG</span><span class="tag">Semantic Caching</span><span class="tag">Agent Orchestration</span>
-                    </div>
-                </div>
+        <section id="skills" class="list-section">
+            <h2 class="section-title">skills</h2>
+            <div class="skills-text">
+                <p><strong>Languages:</strong> Python, C++, Java, Go, SQL, Bash, JavaScript, TypeScript</p>
+                <p><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Terraform, CI/CD</p>
+                <p><strong>Databases:</strong> PostgreSQL, Pinecone (Vector DB), Redis, MongoDB</p>
+                <p><strong>AI Infrastructure:</strong> LangChain, MCP, RAG, Semantic Caching, PyTorch, Ollama</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 Kiran Reddy Bhumireddy. Built with intent.</p>
+        <p>&copy; 2026 Kiran Reddy Bhumireddy. Hosted by GitHub Pages.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
