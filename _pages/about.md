@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSCS @ <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a> | B.Tech CS @ <a href="https://www.iiit.ac.in/">IIIT Hyderabad</a> | Researcher @ <a href="https://rocon.in/people">RRC</a>
+subtitle: MSCS @ <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a> | B.Tech CS @ <a href="https://www.iiit.ac.in/">IIIT Hyderabad</a> | Ex-Researcher @ <a href="https://rocon.in/people">RRC</a>
 
 profile:
   align: right
