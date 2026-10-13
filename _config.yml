@@ -7,7 +7,7 @@ first_name: Kiran Reddy
 middle_name: ""
 last_name: Bhumireddy
 contact_note: >
-  
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Software Engineer, MS CS @ NYU. Exploring Agentic Engineering.
 footer_text: >
@@ -160,7 +160,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources: []
-
 
 # -----------------------------------------------------------------------------
 # Newsletter
