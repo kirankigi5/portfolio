@@ -20,21 +20,34 @@ YAML
 
 bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
-distill_page="${tmp_site}/blog/2021/distill/index.html"
+# The page assertions below need the al-folio demo distill post. A personalized
+# site may have removed it, so skip those assertions when it is absent. The
+# runtime hash parity check further down does not depend on the post and always
+# runs.
+shopt -s nullglob
+distill_sources=(_posts/*distill*.md)
+shopt -u nullglob
 
-if [ ! -f "${distill_page}" ]; then
-  echo "distill page was not generated at ${distill_page}" >&2
-  exit 1
+if [ ${#distill_sources[@]} -gt 0 ]; then
+  distill_page="${tmp_site}/blog/2021/distill/index.html"
+
+  if [ ! -f "${distill_page}" ]; then
+    echo "distill page was not generated at ${distill_page}" >&2
+    exit 1
+  fi
+
+  grep -q 'd-front-matter' "${distill_page}"
+  grep -q '/assets/js/distillpub/template.v2.js' "${distill_page}"
+  grep -q '/assets/js/distillpub/transforms.v2.js' "${distill_page}"
+  grep -q '/assets/js/distillpub/overrides.js' "${distill_page}"
+  grep -q '/assets/al_charts/js/mermaid-setup.js' "${distill_page}"
+  grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/fonts.css' "${distill_page}"
+  grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/tikzjax.js' "${distill_page}"
+  grep -q 'id="giscus_thread"' "${distill_page}"
+else
+  echo "note: skipping distill page assertions, no distill fixture post in _posts/"
 fi
 
-grep -q 'd-front-matter' "${distill_page}"
-grep -q '/assets/js/distillpub/template.v2.js' "${distill_page}"
-grep -q '/assets/js/distillpub/transforms.v2.js' "${distill_page}"
-grep -q '/assets/js/distillpub/overrides.js' "${distill_page}"
-grep -q '/assets/al_charts/js/mermaid-setup.js' "${distill_page}"
-grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/fonts.css' "${distill_page}"
-grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/tikzjax.js' "${distill_page}"
-grep -q 'id="giscus_thread"' "${distill_page}"
 transforms_runtime="${tmp_site}/assets/js/distillpub/transforms.v2.js"
 distill_runtime="$(PATH="$HOME/.rbenv/shims:$PATH" bundle exec ruby -e 'spec = Gem.loaded_specs["al_folio_distill"]; puts(spec ? File.join(spec.full_gem_path, "assets/js/distillpub/transforms.v2.js") : "")')"
 if [ -f "${distill_runtime}" ]; then
